@@ -1,0 +1,29 @@
+.button {
+    -fx-background-color: #9999cc;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0;
+    -fx-padding: 6px 12px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9999cc;
+    -fx-border-color: #9999cc;
+}
+
+.radio-button {
+    -fx-font-size: 13px;
+    -fx-text-fill: #333;
+    -fx-padding: 5px;
+}
+
+.radio-button:selected {
+    -fx-text-fill: #9999cc;
+}

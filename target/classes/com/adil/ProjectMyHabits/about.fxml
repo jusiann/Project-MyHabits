@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+   		<Text layoutX="510.0" layoutY="462.19999980926514" style="-fx-font-size: 16; -fx-font-family: Caladea; -fx-font-weight: bold;" text="Version: BETA 1.0.0" AnchorPane.rightAnchor="45.167999267578125">
+			<font>
+            	<Font name="Segoe UI Bold" size="12.0" />
+         	</font>
+      	</Text>
+		<ImageView fitHeight="168.0" fitWidth="173.0" layoutX="266.0" layoutY="7.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="266.0" AnchorPane.rightAnchor="266.0" AnchorPane.topAnchor="7.0">
+        	<image>
+            	<Image url="@../../../images/iconMyHabits.png" />
+         	</image>
+      	</ImageView>
+      	<Text layoutX="36.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Term of Use&#10;By using MyHabits, you agree to the following:&#10;-The application is for personal use only&#10;-It is in BETA and may contain some minor bugs&#10;-You are responsible for use" textAlignment="JUSTIFY" wrappingWidth="282.060546875">
+         	<font>
+            	<Font name="Caladea" size="16.0" />
+         	</font>
+      	</Text>
+      	<Text layoutX="373.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy Policy&#10;-MyHabits does not collect or share any of your personal data.&#10;-All information is stored only on your device and can be deleted at any time." textAlignment="JUSTIFY" wrappingWidth="282.060546875">
+         	<font>
+            	<Font name="Caladea" size="16.0" />
+         	</font>
+      	</Text>
+      	<Text layoutX="36.0" layoutY="200.19999980926514" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Caladea;" text="MyHabits is a lightweight and user-friendly habit tracking application developed in Java.&#10;Developed by Adil's Studio, this application aims to help you gain more organized living habits by easily tracking your daily habits.&#10;MyHabits supports your personal development process with a simple structure and a focus on privacy and accessibility." textAlignment="JUSTIFY" wrappingWidth="627.060546875" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="185.0">
+         	<font>
+            	<Font size="16.0" />
+         	</font>
+      	</Text>
+      	<Pane layoutX="20.0" layoutY="305.0" prefHeight="177.0" prefWidth="330.0" style="-fx-border-color: #9999cc; -fx-border-width: 4px;" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="351.0" AnchorPane.topAnchor="305.0" />
+      	<Pane layoutX="346.0" layoutY="305.0" prefHeight="131.0" prefWidth="340.0" style="-fx-border-color: #9999cc; -fx-border-width: 4px;" AnchorPane.leftAnchor="346.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="305.0" />
+      	<Pane layoutX="18.0" layoutY="160.0" prefHeight="149.0" prefWidth="668.0" style="-fx-border-color: #9999cc; -fx-border-width: 4px;" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="160.0" />
+      	<Pane layoutX="18.0" layoutY="14.0" prefHeight="426.0" prefWidth="664.0" style="-fx-border-color: #9999cc; -fx-border-width: 4px;" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="18.0" />
+	</children>
+</AnchorPane>

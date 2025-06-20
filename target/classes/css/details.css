@@ -1,0 +1,122 @@
+.root {
+    -fx-background-color: white;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+.button {
+    -fx-background-color: #9999cc;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0;
+    -fx-padding: 6px 12px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-min-width: 80px;
+    -fx-transition: all 0.3s ease;
+}
+
+.button:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9999cc;
+    -fx-border-color: #9999cc;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.apply-button:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: green;
+    -fx-border-color: green;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.delete-button:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+    -fx-border-color: red;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #9999cc;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 10px;
+    -fx-font-size: 14px;
+    -fx-pref-height: 32px;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #9999cc;
+}
+
+.combo-box:hover {
+    -fx-border-color: #6b46c1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 4, 0, 0, 0);
+}
+
+.combo-box:focused {
+    -fx-border-color: #6b46c1;
+    -fx-border-width: 2px;
+}
+
+.spinner {
+    -fx-background-color: white;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 10px;
+    -fx-font-size: 14px;
+    -fx-pref-height: 32px;
+}
+
+.spinner .increment-arrow-button, .spinner .decrement-arrow-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 5px;
+    -fx-min-width: 24px;
+    -fx-min-height: 24px;
+}
+
+.spinner .increment-arrow-button:hover, .spinner .decrement-arrow-button:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+.spinner:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 4, 0, 0, 0);
+}
+
+.spinner:focused {
+    -fx-border-width: 2px;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #9999cc;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 10px;
+    -fx-font-size: 14px;
+    -fx-pref-height: 32px;
+}
+
+.text-field:hover {
+    -fx-border-color: #6b46c1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 4, 0, 0, 0);
+}
+
+.text-field:focused {
+    -fx-border-color: #6b46c1;
+    -fx-border-width: 2px;
+}

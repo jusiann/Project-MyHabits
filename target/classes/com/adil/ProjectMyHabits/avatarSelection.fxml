@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="375.0" prefWidth="600.0" style="-fx-background-color: white; -fx-border-color: #9999cc; -fx-border-width: 4;" stylesheets="@../../../css/avatars.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.adil.ProjectMyHabits.AvatarSelectionController">
+  	<ImageView fitHeight="100" fitWidth="100" layoutX="30.0" layoutY="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="40.0">
+    	<image>
+    		<Image url="@../../../avatars/avatar1.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="100" fitWidth="100" layoutX="250.0" layoutY="20.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="40.0">
+   		<image>
+            <Image url="@../../../avatars/avatar2.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="100" fitWidth="100" layoutX="461.0" layoutY="20.0" AnchorPane.leftAnchor="470.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="40.0">
+    	<image>
+        	<Image url="@../../../avatars/avatar3.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="100" fitWidth="100" layoutX="30.0" layoutY="188.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="180.0">
+        <image>
+            <Image url="@../../../avatars/avatar4.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="100" fitWidth="100" layoutX="250.0" layoutY="170.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="180.0">
+      <image>
+         <Image url="@../../../avatars/avatar5.png" />
+      </image>
+   	</ImageView>
+   	<ImageView fitHeight="100" fitWidth="100" layoutX="470.0" layoutY="170.0" AnchorPane.topAnchor="180.0">
+    	<image>
+        	<Image url="@../../../avatars/avatar6.png" />
+      	</image>
+   	</ImageView>
+	<RadioButton fx:id="radioBtnAvatar1" layoutX="30.0" layoutY="130.0" prefHeight="30.0" prefWidth="100.0" text="Avatar 1" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="140.0" />
+    <RadioButton fx:id="radioBtnAvatar2" layoutX="250.0" layoutY="130.0" prefHeight="30.0" prefWidth="100.0" text="Avatar 2" textAlignment="CENTER" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="140.0" />
+    <RadioButton fx:id="radioBtnAvatar3" layoutX="461.0" layoutY="132.0" prefHeight="30.0" prefWidth="100.0" text="Avatar 3" AnchorPane.leftAnchor="470.0" AnchorPane.topAnchor="140.0" />
+    <RadioButton fx:id="radioBtnAvatar5" layoutX="250.0" layoutY="270.0" prefHeight="30.0" prefWidth="100.0" text="Avatar 5" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="280.0" />
+    <RadioButton fx:id="radioBtnAvatar4" layoutX="35.0" layoutY="300.0" prefHeight="30.0" prefWidth="100.0" text="Avatar 4" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="280.0" />
+	<RadioButton fx:id="radioBtnAvatar6" layoutX="470.0" layoutY="270.0" prefHeight="30.0" prefWidth="100.0" text="Avatar 6" AnchorPane.topAnchor="280.0" />
+    <Button layoutX="312.0" layoutY="323.0" maxHeight="35.0" maxWidth="70.0" minHeight="35.0" minWidth="70.0" onAction="#saveAction" prefHeight="35.0" prefWidth="70.0" text="Save" textFill="WHITE" />
+   	<Button layoutX="222.0" layoutY="323.0" maxHeight="35.0" maxWidth="70.0" minHeight="35.0" minWidth="70.0" onAction="#backAction" prefHeight="35.0" prefWidth="70.0" text="Back" textFill="WHITE" />
+	<Label layoutX="230.0" layoutY="12.0" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Choose an Avatar" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="10.0" />
+</AnchorPane>

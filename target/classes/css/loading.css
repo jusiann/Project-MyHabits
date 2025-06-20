@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #9999cc, #7878a8);
+}
+
+.progress-bar {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px;
+    -fx-padding: 0;
+}
+
+.progress-bar .track {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+}
+
+.progress-bar .bar {
+    -fx-background-color: linear-gradient(to right, #ffffff, #dddddd);
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 0);
+}
+
+#imgLogo {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 15, 0.4, 0, 2);
+}
+
+#lblHint {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+    -fx-max-width: 500px;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.4), 2, 0.2, 0, 0);
+}
+
+#loadingContainer {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}

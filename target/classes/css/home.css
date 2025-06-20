@@ -1,0 +1,116 @@
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.1), 8, 0.0, 0, 4);
+    -fx-background-radius: 8px;
+}
+
+.table-view .table-cell {
+    -fx-alignment: CENTER;
+    -fx-background-color: white;
+    -fx-text-fill: #2a2a2a;
+    -fx-padding: 10px;
+    -fx-font-size: 13px;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: #d6d6f5;
+    -fx-text-fill: #333;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e6e6fa;
+    -fx-background-radius: 8px 8px 0 0;
+}
+
+.table-view .table-row-cell:filled:selected {
+    -fx-background-color: #d0cfff;
+    -fx-text-fill: black;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #f0f0ff;
+}
+
+.table-view .table-row {
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-background-color: #9999cc;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0;
+    -fx-padding: 6px 12px;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9999cc;
+    -fx-border-color: #9999cc;
+}
+
+.table-view .virtual-flow {
+    -fx-hbar-policy: never;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #eef;
+    -fx-cursor: hand;
+}
+
+.scroll-bar {
+	-fx-padding: 10px 0px 10px 0px ;
+    -fx-background-color: transparent;
+    -fx-pref-width: 6px;
+    -fx-pref-height: 6px; 
+}
+
+.scroll-bar .track {
+    -fx-background-color: #d0d0d0;
+    -fx-background-radius: 6px;
+    -fx-border-color: #bbbbbb;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #9999cc; 
+    -fx-background-radius: 6px;
+
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #6b46c1;
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-shape: "";
+}
+
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {
+    -fx-shape: "";
+    -fx-padding: 0;
+}
+
+.scroll-bar:horizontal {
+    -fx-pref-height: 0px;
+    -fx-max-height: 0px;
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
