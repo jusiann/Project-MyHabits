@@ -1,0 +1,154 @@
+.root {
+    -fx-background-color: white;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+.calendar-cell {
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 6px;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.03), 4, 0, 0, 0);
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease;
+}
+
+.calendar-cell:hover {
+    -fx-background-color: #e8e8ff;
+    -fx-border-color: #9999cc;
+}
+
+.calendar-cell.selected {
+    -fx-background-color: #9999cc;
+    -fx-text-fill: white;
+    -fx-border-color: #6b46c1;
+}
+
+.calendar-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.track-bar {
+    -fx-pref-width: 6px;
+    -fx-background-radius: 4px;
+    -fx-background-color: #cccccc;
+}
+
+.track-bar.filled {
+    -fx-background-color: #4c4cff;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #9999cc;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 10px;
+    -fx-font-size: 14px;
+    -fx-pref-height: 32px;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #9999cc;
+}
+
+.combo-box:hover {
+    -fx-border-color: #6b46c1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 4, 0, 0, 0);
+}
+
+.combo-box:focused {
+    -fx-border-color: #6b46c1;
+    -fx-border-width: 2px;
+}
+
+.spinner {
+    -fx-background-color: white;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 10px;
+    -fx-font-size: 14px;
+    -fx-pref-height: 32px;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 5px;
+    -fx-min-width: 24px;
+    -fx-min-height: 24px;
+}
+
+.spinner .increment-arrow-button:hover,
+.spinner .decrement-arrow-button:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+.spinner:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 4, 0, 0, 0);
+}
+
+.spinner:focused {
+    -fx-border-width: 2px;
+}
+
+#lblHeader {
+    -fx-font-size: 24px;
+    -fx-text-fill: #9999cc;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+.scroll-bar {
+	-fx-padding: 10px 0px 10px 0px ;
+    -fx-background-color: transparent;
+    -fx-pref-width: 6px;
+    -fx-pref-height: 6px;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #d0d0d0;
+    -fx-background-radius: 6px;
+    -fx-border-color: #bbbbbb;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #9999cc; 
+    -fx-background-radius: 6px;
+
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #6b46c1;
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-shape: "";
+}
+
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {
+    -fx-shape: "";
+    -fx-padding: 0;
+}
+
+.scroll-bar:horizontal {
+    -fx-pref-height: 0px;
+    -fx-max-height: 0px;
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}

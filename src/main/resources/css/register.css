@@ -1,0 +1,61 @@
+.text-field {
+    -fx-background-color: white;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: black;
+    -fx-padding: 5px; 
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #9999cc;
+}
+
+.password-field {
+    -fx-background-color: white; 
+    -fx-border-width: 0 0 2px 0; 
+    -fx-border-color: black; 
+    -fx-padding: 5px; 
+    -fx-font-size: 14px;
+}
+
+.password-field:focused {
+    -fx-border-color: #9999cc;
+}
+
+.button {
+    -fx-background-color: #9999cc;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-color: transparent;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0;
+    -fx-padding: 6px 12px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9999cc;
+    -fx-border-color: #9999cc;
+}
+
+.login-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #9999cc;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+}
+
+.login-button:hover {
+    -fx-text-fill: #6666aa;
+}
+
+.logo-image {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 20, 0.3, 4, 4);
+}
