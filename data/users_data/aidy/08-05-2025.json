@@ -1,0 +1,20 @@
+[
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "02:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-08"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "5.00 L",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-08"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-20"
+    ]
+  }
+]

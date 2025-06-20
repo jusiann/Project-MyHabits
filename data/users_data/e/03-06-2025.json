@@ -1,0 +1,78 @@
+[
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "ReadingHabit",
+    "name": "Read",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-06-03"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-06-03"
+    ]
+  },
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-06-03"
+    ]
+  }
+]

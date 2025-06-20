@@ -1,0 +1,119 @@
+[
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "23:59 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "1.25 L",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "54 km",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": "950 kcal",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "00:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "5.00 L",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "00:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": " kcal",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "ReadingHabit",
+    "name": "Read",
+    "detail": "00:20 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "04:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "02:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-17"
+    ]
+  }
+]

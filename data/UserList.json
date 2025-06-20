@@ -1,0 +1,89 @@
+[
+  {
+    "username": "e",
+    "name": "e",
+    "surname": "e",
+    "password": "e",
+    "gender": "F",
+    "age": "",
+    "height": "",
+    "weight": "",
+    "avatarPath": "/avatars/avatar4.png",
+    "isFirstLogin": false
+  },
+  {
+    "username": "aidy",
+    "name": "Adil",
+    "surname": "Efe",
+    "password": "Aidy132435",
+    "gender": "M",
+    "age": "21",
+    "height": "175",
+    "weight": "80",
+    "avatarPath": "/avatars/avatar1.png",
+    "isFirstLogin": false
+  },
+  {
+    "username": "ghost",
+    "name": "john",
+    "surname": "wick",
+    "password": "ghostghost",
+    "gender": " ",
+    "age": "",
+    "height": "",
+    "weight": "",
+    "avatarPath": "",
+    "isFirstLogin": false
+  },
+  {
+    "username": "jusian",
+    "name": "Adil",
+    "surname": "Efe",
+    "password": "jusianjusian",
+    "gender": " ",
+    "age": "",
+    "height": "",
+    "weight": "",
+    "avatarPath": "",
+    "isFirstLogin": false
+  },
+  {
+    "username": "adilefe22",
+    "name": "adilefe2",
+    "surname": "adilefe22",
+    "password": "b452ac76a9d563d3eb02319d650ba770e97dd5e095d6f542600ae338168296b7",
+    "salt": "FUdRA4I67bpNFM80LUX9LQ==",
+    "gender": " ",
+    "age": "",
+    "height": "",
+    "weight": "",
+    "avatarPath": "",
+    "isFirstLogin": true
+  },
+  {
+    "username": "adilll1234",
+    "name": "adilll1234",
+    "surname": "adilll1234adilll1234",
+    "password": "adilll1234adilll1234",
+    "salt": "lLjPJObVPOzkYJbSiCrhtA==",
+    "gender": "M",
+    "age": "235",
+    "height": "324223",
+    "weight": "234",
+    "avatarPath": "/avatars/avatar5.png",
+    "isFirstLogin": false
+  },
+  {
+    "username": "adilll1234adilll1234",
+    "name": "adilll1234adilll1234",
+    "surname": "adilll1234adilll1234",
+    "password": "d4868a6dbf6690f37b478c1cfabf491588bf8a802bed6c809fbf20f70f548872",
+    "salt": "rc0j91NfOuFhqVermNXv8g==",
+    "gender": "F",
+    "age": "",
+    "height": "",
+    "weight": "",
+    "avatarPath": "",
+    "isFirstLogin": false
+  }
+]

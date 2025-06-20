@@ -1,0 +1,9 @@
+[
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": []
+  }
+]

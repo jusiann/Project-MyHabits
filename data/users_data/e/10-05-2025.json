@@ -1,0 +1,74 @@
+[
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "00:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-10"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "00:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-10"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": " kcal",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-10"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "00:00 hour",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-10"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "0.00 L",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-10"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": " kcal",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-10"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-10"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-10"
+    ]
+  }
+]

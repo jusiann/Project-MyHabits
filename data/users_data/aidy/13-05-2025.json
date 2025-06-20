@@ -1,0 +1,38 @@
+[
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "06:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-13"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "1.25 L",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-13"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "54 km",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-13"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": "950 kcal",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-13"
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "23:59 hour",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "1.25 L",
+    "isCompleted": false,
+    "completedDates": []
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "54 km",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-16"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": "950 kcal",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-16"
+    ]
+  },
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "00:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-16"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "5.00 L",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-16"
+    ]
+  },
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "00:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-16"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "0.25 L",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-16"
+    ]
+  },
+  {
+    "className": "FoodHabit",
+    "name": "Food",
+    "detail": " kcal",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-16"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "02:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-16"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "className": "ReadingHabit",
+    "name": "Read",
+    "detail": "04:00 hour",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-05"
+    ]
+  },
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "00:00 hour",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-05"
+    ]
+  },
+  {
+    "className": "ReadingHabit",
+    "name": "Read",
+    "detail": "00:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-05"
+    ]
+  },
+  {
+    "className": "ExerciseHabit",
+    "name": "Exercise",
+    "detail": "",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-05"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "2.5 km",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-05"
+    ]
+  }
+]

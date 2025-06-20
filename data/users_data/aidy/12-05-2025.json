@@ -1,0 +1,74 @@
+[
+  {
+    "className": "ReadingHabit",
+    "name": "Read",
+    "detail": "02:00 hour",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-12"
+    ]
+  },
+  {
+    "className": "ReadingHabit",
+    "name": "Read",
+    "detail": "45 pages",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-12"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "5 km",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-12"
+    ]
+  },
+  {
+    "className": "WalkingHabit",
+    "name": "Walk",
+    "detail": "1234 kcal",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-12"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "1.75 L",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-12"
+    ]
+  },
+  {
+    "className": "ReadingHabit",
+    "name": "Read",
+    "detail": "23 pages",
+    "isCompleted": true,
+    "completedDates": [
+      "2025-05-12"
+    ]
+  },
+  {
+    "className": "SleepingHabit",
+    "name": "Sleep",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-12"
+    ]
+  },
+  {
+    "className": "WaterHabit",
+    "name": "Water",
+    "detail": "",
+    "isCompleted": false,
+    "completedDates": [
+      "2025-05-12"
+    ]
+  }
+]
